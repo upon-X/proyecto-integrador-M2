@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card/Card.jsx'
+import Cards from './components/Cards/Cards.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <Card/>
-    </div>
+    <body className="App">
+      <Nav/>
+      <Cards/>
+
+    </body>
   );
 }
 
